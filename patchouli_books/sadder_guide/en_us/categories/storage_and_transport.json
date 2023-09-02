@@ -1,6 +1,6 @@
 {
   "name": "Storage & Transport",
   "description": "Ways to store & transport items, fluids & electricity.",
-  "icon": "minecraft:barrel",
+  "icon": "quark:oak_chest",
   "sortnum": 2
 }

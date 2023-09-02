@@ -1626,6 +1626,14 @@ file = "patchouli_books/sadder_guide/en_us/categories/exploration.json"
 hash = "019e8f67e574a5d84c8ce061bbbe78a37cef2c8f1cf2a4542ea617e6d52bf902"
 
 [[files]]
+file = "patchouli_books/sadder_guide/en_us/categories/farming_and_food.json"
+hash = "23b726aacfd4e086d2724288e668a499b7fc1e2c6e7cfe9899807fbc0a4317f7"
+
+[[files]]
+file = "patchouli_books/sadder_guide/en_us/categories/goals.json"
+hash = "f50c46d7d6eda242548f30d5806fc89200705810df5a1f06b52b66aa95b5f145"
+
+[[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/gregtech.json"
 hash = "11a69be5b92cf19f212bbe9889a096e0a724cbe988d533c672427fd8481fea9b"
 
@@ -1643,7 +1651,7 @@ hash = "caabb8bc69d8422efa91ddf4f04bd15276798a9952edf348ef8bd288380c11c8"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/storage_and_transport.json"
-hash = "8e4913c28ca1963096f60d3e4af61194064e2eca661be3498ab93275b4bbc6ae"
+hash = "8f8376b5db545ecb921c04feed8eeb0dacdca384f078319dcaa64bfb87e0143f"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/technology.json"
@@ -1651,7 +1659,7 @@ hash = "2712efce81a2bd73117f3f7880e18856290ee224ddeccd448250e20579301d0d"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/tips_n_tricks.json"
-hash = "499c6c6eda95dec86788505182957ac1fd9ebdd0a948b977249e46dfe78013ce"
+hash = "37cd00e8987dce1d5fd33a392dfc049076363363b9afd624b5d2a1add0256b9c"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/entries/tips_n_tricks/waystones.json"

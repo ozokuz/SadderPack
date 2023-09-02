@@ -1,0 +1,6 @@
+{
+  "name": "Applied Energistics",
+  "description": "Digital matter energy storage.",
+  "icon": "ae2:controller",
+  "parent": "patchouli:storage_and_transport"
+}
