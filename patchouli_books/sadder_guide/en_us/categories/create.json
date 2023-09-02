@@ -1,0 +1,6 @@
+{
+  "name": "Create",
+  "description": "The best mod and it's addons.",
+  "icon": "create:cogwheel",
+  "parent": "patchouli:technology"
+}

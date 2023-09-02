@@ -1,0 +1,6 @@
+{
+  "name": "GregTech",
+  "description": "Build large industrial complexes with long automation chains.",
+  "icon": "gtceu:basic_electronic_circuit",
+  "parent": "patchouli:technology"
+}

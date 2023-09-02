@@ -1,0 +1,7 @@
+name = "gregtech"
+filename = "gtceu-forge-1.19.2-1.0.11.a-build_156.jar"
+
+[download]
+url = "https://github.com/GregTechCEu/GregTech-Modern/releases/download/1.19.2-1.0.11.a-build_156/gtceu-forge-1.19.2-1.0.11.a-build_156.jar"
+hash-format = "sha256"
+hash = "cfd22ca482308ee18e38a245de968351b0facde452daaf3f63486cd589dbe445"

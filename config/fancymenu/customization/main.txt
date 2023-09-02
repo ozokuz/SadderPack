@@ -1,0 +1,122 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 287
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 337e41ab-3bd6-443b-b172-ef5c0a5182e71693525860551
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 122
+  action = deep_customization_element:title_screen_branding
+  actionid = a2aeb341-8f72-49c2-93ae-150343089b271693525860558
+  y = 404
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 613
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 48aef358-92f1-435b-9f89-8a03e2921f381693525860558
+  y = 436
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 524
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 6e499a0d-8cc9-4df6-8f09-076ca466e54e1693525860558
+  y = 214
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 284
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b54c3e7c-d6d2-48e3-abd3-154066520fcd1693525860558
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = eec33511-2784-4293-8d1b-c025728907b21693525860558
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"json","values":{"source":"packversion.json","json_path":"$.version"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 87
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f757554b-da80-4854-b946-26b49f85545b1693525914979
+  y = -12
+  alignment = left
+  height = 12
+}
+

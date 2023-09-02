@@ -1,0 +1,6 @@
+{
+  "name": "Storage & Transport",
+  "description": "Ways to store & transport items, fluids & electricity.",
+  "icon": "minecraft:barrel",
+  "sortnum": 2
+}

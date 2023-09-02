@@ -1,0 +1,13 @@
+name = "Sadder Pack"
+author = "Ozoku & Rubsad"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d953395605bce3b99f38a650e8014ccf8ebc65a3d90676c347430d9da55b85e5"
+
+[versions]
+forge = "43.2.21"
+minecraft = "1.19.2"

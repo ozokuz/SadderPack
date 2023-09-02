@@ -1,0 +1,7 @@
+.gitattributes
+.gitignore
+kubejs/probe
+kubejs/jsconfig.json
+CHANGELOG.md
+LICENSE
+README.md

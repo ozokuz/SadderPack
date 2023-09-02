@@ -1,0 +1,6 @@
+{
+  "name": "Immersive Engineering",
+  "description": "The early industrial age tech mod. Burn large amounts of coal and diesel to make steel and generate electricity.",
+  "icon": "immersiveengineering:wirecoil_copper",
+  "parent": "patchouli:technology"
+}
