@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "TODO.md"
-hash = "c716e2bd4210dfa89b1b90308c862eb4235916dec6381af0a39b16b2de78ceba"
-
-[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "3932c79eb733b988893d88068d83b30d73eeb96324d9c4a5e1f6b80b0748a151"
 
@@ -1608,6 +1604,10 @@ hash = "e51c3b0ae1f3fd9a0b7c5c41d1bcaf1b9984c691c05ca012f1896bbcd8e1c7d3"
 [[files]]
 file = "patchouli_books/sadder_guide/book.json"
 hash = "5217dafc23403bc4d434ee74370921f08e7ce78d06711c1e0dcf644ee04e0116"
+
+[[files]]
+file = "patchouli_books/sadder_guide/en_us/categories/applied_energistics.json"
+hash = "4151f61c748b237e30032b3918a93502e9315b6975fc56cad6ea0b1653cca578"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/building_and_decoration.json"
