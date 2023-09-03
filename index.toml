@@ -26,7 +26,7 @@ hash = "cc8875b830f06af0cb6bd06c8f9bcdfa56006d94bd72821fd196b832075b94db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "bed1f378722690954130ac405528c30a2bad538f43f6973cea818c1cab61c0aa"
+hash = "d5cd30b1b940960451997940c265f0c9838a2cd429f62be1234028541b7458c8"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -111,6 +111,10 @@ hash = "a8c7cfd85d9d33613dc6dae051dcda86d87a7f0198797656a15bd04bd9fb2661"
 [[files]]
 file = "config/supplementaries-client.toml"
 hash = "b52915511b91c972507f70f111bfa88f51f014bc5b4617f074de8facbfee8d1c"
+
+[[files]]
+file = "config/toastcontrol-common.toml"
+hash = "096104e0d7e8b8705ee9c3fb0174aca6a1c2ac7f929fef43ffe4927cfeebe76c"
 
 [[files]]
 file = "config/waystones-common.toml"
