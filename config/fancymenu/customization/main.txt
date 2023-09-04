@@ -9,16 +9,111 @@ customization-meta {
 }
 
 customization {
+  name = mainmenu
+  action = setbackgroundpanorama
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = mid-centered
-  x = -100
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 316
   action = movebutton
-  y = -18
+  y = 60
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 547
+  action = movebutton
+  y = 239
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 391
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 614
+  action = movebutton
+  y = 189
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 293
+  action = movebutton
+  y = 196
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 25
+  action = movebutton
+  y = 85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 325
+  action = movebutton
+  y = 105
 }
 
 customization {
@@ -62,7 +157,7 @@ customization {
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 48aef358-92f1-435b-9f89-8a03e2921f381693525860558
-  y = 436
+  y = 441
   height = 9
 }
 
@@ -79,7 +174,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 284
   width = 274
   action = deep_customization_element:title_screen_logo
@@ -91,7 +186,7 @@ customization {
 customization {
   orientation = original
   splash_color = #ffff00
-  hidden = false
+  hidden = true
   x = 0
   width = 60
   splash_rotation = -20
@@ -99,6 +194,17 @@ customization {
   actionid = eec33511-2784-4293-8d1b-c025728907b21693525860558
   y = 0
   height = 30
+}
+
+customization {
+  path = menu/background.png
+  orientation = top-left
+  x = -2
+  width = 200
+  action = addtexture
+  actionid = 4f56232c-4f8d-4bdb-80a2-7e42770bda9d1693567742060
+  y = 0
+  height = 466
 }
 
 customization {
@@ -118,5 +224,174 @@ customization {
   y = -12
   alignment = left
   height = 12
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_singleplayer_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_hover.png
+  label = Singleplayer
+  loopbackgroundanimations = true
+  x = 25
+  width = 150
+  action = addbutton
+  actionid = 6d2bce48-14c1-47ea-af73-cd96877441a91693568023245
+  y = 175
+  backgroundnormal = menu/button.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_multiplayer_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_hover.png
+  label = Multiplayer
+  loopbackgroundanimations = true
+  x = 25
+  width = 150
+  action = addbutton
+  actionid = c46953f9-29a6-4bed-9523-75c4bd07da581693568161801
+  y = 200
+  backgroundnormal = menu/button.png
+  height = 20
+}
+
+customization {
+  advanced_height = 25
+  path = menu/title.png
+  orientation = top-left
+  x = 16
+  width = 167
+  action = addtexture
+  actionid = 5ce5de3b-878e-452b-bcf4-0139d1fe39301693568758113
+  y = 60
+  advanced_width = 167
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:forge_titlescreen_mods_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_hover.png
+  label = Mods
+  loopbackgroundanimations = true
+  x = 25
+  width = 150
+  action = addbutton
+  actionid = fd1195a5-ae0b-47f7-839e-b4d55d3985cb1693568879732
+  y = 225
+  backgroundnormal = menu/button.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_square_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 130
+  width = 20
+  action = addbutton
+  actionid = 3dd8edff-1319-43a3-85cf-05d479024ec61693568930730
+  y = 250
+  backgroundnormal = menu/button_square.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_quit_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_square_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 155
+  width = 20
+  action = addbutton
+  actionid = a182cd02-c8ae-4ddb-b12e-1e64f0065ffe1693569017442
+  y = 250
+  backgroundnormal = menu/button_square.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_language_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_square_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 25
+  width = 20
+  action = addbutton
+  actionid = e40aad95-8314-49ff-8158-fb32d08beeb81693569085201
+  y = 250
+  backgroundnormal = menu/button_square.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_accessibility_button%btnaction_splitter_fm%
+  backgroundhovered = menu/button_square_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 50
+  width = 20
+  action = addbutton
+  actionid = 13374a3e-8321-4a0b-b961-eadbd2c1d8f91693569341270
+  y = 250
+  backgroundnormal = menu/button_square.png
+  height = 20
+}
+
+customization {
+  path = menu/options.png
+  orientation = top-left
+  x = 132
+  width = 16
+  action = addtexture
+  actionid = 1bebd061-5f76-4eaa-b87e-ba13a3127ffa1693570636793
+  y = 252
+  height = 16
+}
+
+customization {
+  path = menu/language.png
+  orientation = top-left
+  x = 26
+  width = 20
+  action = addtexture
+  actionid = c1ff565f-d52c-4114-bffe-355c406afead1693570697064
+  y = 251
+  height = 20
+}
+
+customization {
+  path = menu/accessibility.png
+  orientation = top-left
+  x = 51
+  width = 20
+  action = addtexture
+  actionid = 197f03ee-553d-4629-8e4c-b872d1ad0ba71693570719829
+  y = 251
+  height = 20
+}
+
+customization {
+  path = menu/quit.png
+  orientation = top-left
+  x = 157
+  width = 16
+  action = addtexture
+  actionid = 539f6e5b-7db0-478a-91f7-781ddd6e0a291693571315435
+  y = 252
+  height = 16
 }
 
