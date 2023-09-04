@@ -54,7 +54,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/main.txt"
-hash = "7557092f663c5a1eaf987fc653e30aec5a679eea539f5cebe64755e3b262cece"
+hash = "293e30480456446f98c0c9473c5c371be5029e14515bbd53baafe3fcf5cebeb5"
 
 [[files]]
 file = "config/fml.toml"
@@ -1647,7 +1647,7 @@ hash = "83b9961db7ddc157851fc6585ebba8c3eb20ac7ba5ebf3ffd70d100135df7532"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/introduction.json"
-hash = "9f60b1b6c37b1daf55dd9e977961597af5e28fe5db46e917f7559308d9cf29c9"
+hash = "e71b4cf17a6d7b3a50ca79b7b14e8639a3dfd8de21202fdb467d045448c5e67d"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/magic.json"
@@ -1664,6 +1664,18 @@ hash = "2712efce81a2bd73117f3f7880e18856290ee224ddeccd448250e20579301d0d"
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/categories/tips_n_tricks.json"
 hash = "37cd00e8987dce1d5fd33a392dfc049076363363b9afd624b5d2a1add0256b9c"
+
+[[files]]
+file = "patchouli_books/sadder_guide/en_us/entries/introduction/issues_requests.json"
+hash = "ac56d7a665b876eb85a7ceb74c450b4ae4837fb1d9e13dac032ce778bc3d2b7a"
+
+[[files]]
+file = "patchouli_books/sadder_guide/en_us/entries/introduction/welcome.json"
+hash = "e795e663557b48d6fdc55a1c4edfcb8162a98883e04e435b52d00e15cfeee404"
+
+[[files]]
+file = "patchouli_books/sadder_guide/en_us/entries/introduction/what_are_these_overlays.json"
+hash = "5513c565a240ae4956a661674a30e6d5b7bae727c4315047a9aa3d72a907d0db"
 
 [[files]]
 file = "patchouli_books/sadder_guide/en_us/entries/tips_n_tricks/waystones.json"

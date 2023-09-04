@@ -1,0 +1,15 @@
+{
+  "name": "Welcome to SadderPack",
+  "icon": "minecraft:grass_block",
+  "category": "patchouli:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome to SadderPack! This guide will teach you various things you might want to know for playing this pack.$(br2)The information contained in this guide is mostly kept short, so as to not keep you here for too long, so please pay attention."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "SadderPack is a kitchen sink pack, meaning that there's a bunch of content for all kinds of players.$(br2)Please take a bit of your time to read the entries in the Introduction category. They'll get you up to speed with everything you need to know."
+    }
+  ]
+}

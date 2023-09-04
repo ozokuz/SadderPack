@@ -1,0 +1,13 @@
+{
+  "name": "Issues, requests?",
+  "icon": "minecraft:lava_bucket",
+  "category": "patchouli:introduction",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "If you have any issues or want to request another type of change, head over to the GitHub issues from the button down below!",
+      "url": "https://github.com/ozokuz/SadderPack/issues",
+      "link_text": "GitHub Issues"
+    }
+  ]
+}

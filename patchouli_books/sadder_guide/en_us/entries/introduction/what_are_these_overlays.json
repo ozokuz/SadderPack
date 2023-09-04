@@ -1,0 +1,15 @@
+{
+  "name": "What are all of these overlays?",
+  "icon": "minecraft:clock",
+  "category": "patchouli:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You've most likely already seen some of the new UI elements when you joined the world. Here are explanations for most of the elements."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At the top of the screen centered you can see what you are looking at. This can show more info for some blocks and entities.$(br2)"
+    }
+  ]
+}
