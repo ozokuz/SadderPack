@@ -1272,6 +1272,11 @@ hash = "2584078440b47a3066e42a2d869d22715e486256e1d3ec5142008e2273f75860"
 metafile = true
 
 [[files]]
+file = "mods/oh-the-biomes-youll-go.pw.toml"
+hash = "25b1c1ccd0ffd18bdd0ad163b8db0236717141dae5e57dba8e8fcf4aa83d3a1b"
+metafile = true
+
+[[files]]
 file = "mods/overflowing-bars.pw.toml"
 hash = "f13aa7119247caf62b75e7b21aa38cea7fe5931f7cfa7d8aeda861bea646aa0c"
 metafile = true
@@ -1479,6 +1484,16 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "a6b779b19fdc89e36439ddaf01be97ab2d6c1deb9229e104c581a575ebf1fa89"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "9a5022174f1158ad923458ade493c3aad0cd8cc892a0a20a154908764d29f7b1"
 metafile = true
 
 [[files]]
