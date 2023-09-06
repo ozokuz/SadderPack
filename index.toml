@@ -777,6 +777,11 @@ hash = "99b055a561787707364958cba2b5d4183130fd4d76b778469e4b69621d0ce066"
 metafile = true
 
 [[files]]
+file = "mods/chisels-bits.pw.toml"
+hash = "eaf5ff310b162fe7f6443807011b9a3b5735ce20898b81ec8628ec2111fc0626"
+metafile = true
+
+[[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "4ee4b7abc4bebd0d3c9a94a0ae0de701d334d48d6a18ca23fd2bc4655699986d"
 metafile = true
