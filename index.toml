@@ -13,6 +13,10 @@ file = "config/apotheosis/potion.cfg"
 hash = "cfaf4a3f6a283b1758b5dd503d606d45c90d9415342052e33424d09e0db0e248"
 
 [[files]]
+file = "config/ars_nouveau-common.toml"
+hash = "1df5548fa6bdd2a815e02b4f8641412a9d767bd4bfb29af6feb30f613e787e0a"
+
+[[files]]
 file = "config/bcc-common.toml"
 hash = "c84cb025c6c306a7aa28c21f6c2b40e182123c0a0448996796f213a27c907200"
 
