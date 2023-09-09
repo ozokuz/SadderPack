@@ -49,6 +49,10 @@ file = "config/emi.css"
 hash = "0884c26b934d902d2f729f2008016db22d60079c3e9c4ecd3dcd5372517019b7"
 
 [[files]]
+file = "config/fancymenu/config.txt"
+hash = "4d746b6bf5a86113962cac8af1641fce338ee6dcb9f3e29e40ed89b3da12178f"
+
+[[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
